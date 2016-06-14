@@ -4,7 +4,7 @@ mv "gas-preprocessor.pl?format=raw" "gas-preprocessor.pl"
 chmod +x gas-preprocessor.pl
 
 # unzip the source
-unzip libjpeg-turbo-code-1492-trunk.zip
-mv libjpeg-turbo-code-1492-trunk src
+unzip libjpeg-turbo1.3.1.zip
+mv libjpeg-turbo src
 
 echo "\n\tReady to build"
