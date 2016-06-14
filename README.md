@@ -1,5 +1,9 @@
 libjpeg-turbo-build-scripts
 ===========================
+2016-6-14 add by zhangguowei
+1、修改build.sh里面的IOS_SDK_VERSION=9.3关于sdk平台的
+2、去掉armv7s平台的
+
 
 Build scripts for producing universal libjpeg-turbo libraries with 64 bit
 support targeting iOS. All architectures are built with SIMD support.

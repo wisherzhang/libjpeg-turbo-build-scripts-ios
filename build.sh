@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ARCHS_TO_BUILD="x86_64 arm64 armv7 armv7s i386"
+ARCHS_TO_BUILD="x86_64 arm64 armv7 i386"
 
 # LIPO is used to combine static libraries
 LIPO="xcrun -sdk iphoneos lipo"
@@ -10,8 +10,8 @@ PATH="$PATH:$(PWD)"
 CPUS=$(sysctl -n hw.logicalcpu_max)
 
 IOS_PLATFORM_BASE="/Applications/Xcode.app/Contents/Developer/Platforms"
-IOS_SDK_VERSION=8.1
-IOS_SDK_MIN_VERSION=5.1
+IOS_SDK_VERSION=9.3
+IOS_SDK_MIN_VERSION=6.0
 
 ################################################################################
 IOS_PLATFORM_DIR=
